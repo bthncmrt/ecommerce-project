@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="eticaretprojesiModelStoreContainer" CdmEntityContainer="eticaretprojesiEntities">
+    <EntitySetMapping Name="Gizlilikİlkesi">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Gizlilikİlkesi">
+        <MappingFragment StoreEntitySet="Gizlilikİlkesi">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Anahtar_Kelime" ColumnName="Anahtar_Kelime" />
+          <ScalarProperty Name="İcerik" ColumnName="İcerik" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hakkimizda">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Hakkimizda">
+        <MappingFragment StoreEntitySet="Hakkimizda">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="İcerik" ColumnName="İcerik" />
+          <ScalarProperty Name="Anahtar_kelime" ColumnName="Anahtar_kelime" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="İadeKosullari">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.İadeKosullari">
+        <MappingFragment StoreEntitySet="İadeKosullari">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="İcerik" ColumnName="İcerik" />
+          <ScalarProperty Name="Ahatar_kelime" ColumnName="Ahatar_kelime" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KargoFirmasi">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.KargoFirmasi">
+        <MappingFragment StoreEntitySet="KargoFirmasi">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Sİrket" ColumnName="Sİrket" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Websitesi" ColumnName="Websitesi" />
+          <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+          <ScalarProperty Name="Vergino" ColumnName="Vergino" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kategoriler">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Kategoriler">
+        <MappingFragment StoreEntitySet="Kategoriler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tanim" ColumnName="Tanim" />
+          <ScalarProperty Name="UstKategoriId" ColumnName="UstKategoriId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Login">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="AdminMi" ColumnName="AdminMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MailAbone">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.MailAbone">
+        <MappingFragment StoreEntitySet="MailAbone">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MailAdresi" ColumnName="MailAdresi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MailAyarlari">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.MailAyarlari">
+        <MappingFragment StoreEntitySet="MailAyarlari">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Gonderici_bilgisi" ColumnName="Gonderici_bilgisi" />
+          <ScalarProperty Name="Smtp_server" ColumnName="Smtp_server" />
+          <ScalarProperty Name="Smtp_port" ColumnName="Smtp_port" />
+          <ScalarProperty Name="Mail_gonderici" ColumnName="Mail_gonderici" />
+          <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+          <ScalarProperty Name="Eposta_Sifresi" ColumnName="Eposta_Sifresi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="musteri">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.musteri">
+        <MappingFragment StoreEntitySet="musteri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="adi" ColumnName="adi" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+          <ScalarProperty Name="DogumTArihi" ColumnName="DogumTArihi" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="SepetId" ColumnName="SepetId" />
+          <ScalarProperty Name="LoginId" ColumnName="LoginId" />
+          <ScalarProperty Name="SiparisGecmisId" ColumnName="SiparisGecmisId" />
+          <ScalarProperty Name="TeslimatAdresi" ColumnName="TeslimatAdresi" />
+          <ScalarProperty Name="FaturaAdresi" ColumnName="FaturaAdresi" />
+          <ScalarProperty Name="YorumId" ColumnName="YorumId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OdemeYontemi">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.OdemeYontemi">
+        <MappingFragment StoreEntitySet="OdemeYontemi">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tanim" ColumnName="Tanim" />
+          <ScalarProperty Name="Acıklama" ColumnName="Acıklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ozellik">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Ozellik">
+        <MappingFragment StoreEntitySet="Ozellik">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tanim" ColumnName="Tanim" />
+          <ScalarProperty Name="KategoriId" ColumnName="KategoriId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seo">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Seo">
+        <MappingFragment StoreEntitySet="Seo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Harita" ColumnName="Harita" />
+          <ScalarProperty Name="Anahtar_kelime" ColumnName="Anahtar_kelime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SepetId">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.SepetId">
+        <MappingFragment StoreEntitySet="SepetId">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="VaryantId" ColumnName="VaryantId" />
+          <ScalarProperty Name="Miktari" ColumnName="Miktari" />
+          <ScalarProperty Name="Toplam" ColumnName="Toplam" />
+          <ScalarProperty Name="OzelikId" ColumnName="OzelikId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Siparis">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Siparis">
+        <MappingFragment StoreEntitySet="Siparis">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SatisTarihi" ColumnName="SatisTarihi" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+          <ScalarProperty Name="SiparisDurumuId" ColumnName="SiparisDurumuId" />
+          <ScalarProperty Name="KargoTakip" ColumnName="KargoTakip" />
+          <ScalarProperty Name="OdemeYontemiId" ColumnName="OdemeYontemiId" />
+          <ScalarProperty Name="SepetDetayId" ColumnName="SepetDetayId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiparisDetay">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.SiparisDetay">
+        <MappingFragment StoreEntitySet="SiparisDetay">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="VaryantId" ColumnName="VaryantId" />
+          <ScalarProperty Name="Fiyat" ColumnName="Fiyat" />
+          <ScalarProperty Name="Miktar" ColumnName="Miktar" />
+          <ScalarProperty Name="KargoId" ColumnName="KargoId" />
+          <ScalarProperty Name="OdemeYontemId" ColumnName="OdemeYontemId" />
+          <ScalarProperty Name="OzellıkId" ColumnName="OzellıkId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiparisDurumu">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.SiparisDurumu">
+        <MappingFragment StoreEntitySet="SiparisDurumu">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tanim" ColumnName="Tanim" />
+          <ScalarProperty Name="Detay" ColumnName="Detay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiparisGecmisi">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.SiparisGecmisi">
+        <MappingFragment StoreEntitySet="SiparisGecmisi">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tanim" ColumnName="Tanim" />
+          <ScalarProperty Name="Detay" ColumnName="Detay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Siteayarlari">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Siteayarlari">
+        <MappingFragment StoreEntitySet="Siteayarlari">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="watsapp" ColumnName="watsapp" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SosyalMediya">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.SosyalMediya">
+        <MappingFragment StoreEntitySet="SosyalMediya">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+          <ScalarProperty Name="instigram" ColumnName="instigram" />
+          <ScalarProperty Name="Youtube" ColumnName="Youtube" />
+          <ScalarProperty Name="twitter" ColumnName="twitter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TeslimatBilgileri">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.TeslimatBilgileri">
+        <MappingFragment StoreEntitySet="TeslimatBilgileri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tanim" ColumnName="Tanim" />
+          <ScalarProperty Name="İçerik" ColumnName="İçerik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urunler">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Urunler">
+        <MappingFragment StoreEntitySet="Urunler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+          <ScalarProperty Name="Resim" ColumnName="Resim" />
+          <ScalarProperty Name="Acıklama" ColumnName="Acıklama" />
+          <ScalarProperty Name="Stok_Kodu" ColumnName="Stok_Kodu" />
+          <ScalarProperty Name="Adet" ColumnName="Adet" />
+          <ScalarProperty Name="Ekleme_Tarih" ColumnName="Ekleme_Tarih" />
+          <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+          <ScalarProperty Name="TeslimatId" ColumnName="TeslimatId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunVaryant">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.UrunVaryant">
+        <MappingFragment StoreEntitySet="UrunVaryant">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="VaryantId" ColumnName="VaryantId" />
+          <ScalarProperty Name="Miktar" ColumnName="Miktar" />
+          <ScalarProperty Name="OzelliklerId" ColumnName="OzelliklerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uyesözleşmesi">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Uyesözleşmesi">
+        <MappingFragment StoreEntitySet="Uyesözleşmesi">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="İcerik" ColumnName="İcerik" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Anahtar_Kelime" ColumnName="Anahtar_Kelime" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Varyant">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Varyant">
+        <MappingFragment StoreEntitySet="Varyant">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tanim" ColumnName="Tanim" />
+          <ScalarProperty Name="KategoriId" ColumnName="KategoriId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yorumlar">
+      <EntityTypeMapping TypeName="eticaretprojesiModel.Yorumlar">
+        <MappingFragment StoreEntitySet="Yorumlar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="Yorum" ColumnName="Yorum" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="MusteriId" ColumnName="MusteriId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
